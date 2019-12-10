@@ -20,20 +20,13 @@ if($_POST['submit']) {
 }
 
 ?>
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Convert Volume</title>
-    <link href="styles.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
+<?php include_once 'includes/header.php'; ?> 
 
     <div id="main-content">
 
       <h1>Convert Liquid</h1>
   
-      <form action="liquid.php" method="post">
+      <form action="" method="post">
         
         <div class="entry">
           <label>From:</label>&nbsp;
@@ -69,5 +62,6 @@ if($_POST['submit']) {
       <a href="index.php">Return to menu</a>
       
     </div>
+    <?php include_once 'includes/header.php'; ?>
   </body>
 </html>
